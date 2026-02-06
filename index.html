@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <a href="https://wa.me/5583998578951?text=Olá,%20vi%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços."
-   class="whatsapp-float"
-   target="_blank">
-💬 Fale no WhatsApp
-</a>
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Manutenção de PC em João Pessoa | Jandson</title>
+
   <style>
     body {
       margin: 0;
@@ -32,7 +29,7 @@
 
     header p {
       margin-top: 10px;
-      font-size: 1.2em;
+      font-size: 1.1em;
     }
 
     section {
@@ -40,6 +37,13 @@
       margin: auto;
       padding: 40px 20px;
     }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    /* Serviços */
 
     .services {
       display: grid;
@@ -50,9 +54,14 @@
     .card {
       background: white;
       border-radius: 16px;
-      padding: 20px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 25px 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
     }
 
     .card h3 {
@@ -62,14 +71,20 @@
     .price {
       color: #2563eb;
       font-weight: bold;
-      margin-top: 10px;
+      margin-top: 12px;
+      font-size: 1.1em;
     }
+
+    /* Sobre */
 
     .about {
       background: #e2e8f0;
       border-radius: 16px;
       padding: 30px;
+      line-height: 1.6;
     }
+
+    /* Contato */
 
     .contact {
       text-align: center;
@@ -78,7 +93,7 @@
     .contact a {
       display: inline-block;
       margin-top: 15px;
-      padding: 15px 30px;
+      padding: 15px 35px;
       background: #22c55e;
       color: white;
       text-decoration: none;
@@ -89,48 +104,64 @@
 
     .contact a:hover {
       background: #16a34a;
+      transform: scale(1.05);
     }
+
+    /* Rodapé */
 
     footer {
       background: #0f172a;
       color: white;
       text-align: center;
       padding: 20px;
+      font-size: 0.9em;
     }
 
-        .whatsapp-float {
+    /* Botão WhatsApp Flutuante */
+
+    .whatsapp-float {
       position: fixed;
       bottom: 20px;
       right: 20px;
       background: #22c55e;
       color: white;
-      padding: 15px 20px;
+      padding: 14px 22px;
       border-radius: 50px;
       font-weight: bold;
       text-decoration: none;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
       z-index: 1000;
       transition: 0.3s;
     }
-    
+
     .whatsapp-float:hover {
       background: #16a34a;
-      transform: scale(1.05);
+      transform: scale(1.08);
     }
-
-    
   </style>
 </head>
+
 <body>
+
+  <!-- Cabeçalho -->
 
   <header>
     <h1>Manutenção e Suporte em Informática</h1>
+
     <p>Atendimento rápido, seguro e com preço justo</p>
-    <p>Formatação • Instalação de Programas • Manutenção • Suporte Remoto • Criação de Sites Profissionais</p>
+
+    <p>
+      Formatação • Instalação de Programas • Manutenção •
+      Suporte Remoto • Criação de Sites Profissionais
+    </p>
   </header>
 
+  <!-- Serviços -->
+
   <section>
+
     <h2>Meus Serviços</h2>
+
     <div class="services">
 
       <div class="card">
@@ -140,7 +171,7 @@
       </div>
 
       <div class="card">
-        <h3>Instalação Windows/Linux</h3>
+        <h3>Instalação Windows / Linux</h3>
         <p>Instalação e configuração do sistema operacional.</p>
         <div class="price">A partir de R$100</div>
       </div>
@@ -160,49 +191,73 @@
       <div class="card">
         <h3>Suporte Remoto</h3>
         <p>Atendimento online rápido e seguro.</p>
-        <div class="price">R$40/hora</div>
+        <div class="price">R$40 / hora</div>
       </div>
 
       <div class="card">
         <h3>Criação de Site Profissional</h3>
-        <p>Site para divulgar seus serviços, com botão do WhatsApp e design moderno.</p>
+        <p>Site para divulgar seus serviços com botão do WhatsApp.</p>
         <div class="price">A partir de R$70</div>
       </div>
-      
+
     </div>
+
   </section>
 
+  <!-- Sobre -->
+
   <section>
+
     <h2>Sobre Mim</h2>
+
     <div class="about">
-        <p>
+
+      <p>
         Olá, me chamo Jandson e trabalho com suporte em informática.
         Atendo à noite, fins de semana e feriados.
         Ajudo você a resolver problemas no computador de forma rápida,
         segura e sem enrolação.
-        </p>
+      </p>
+
     </div>
+
   </section>
+
+  <!-- Contato -->
 
   <section class="contact">
+
     <h2>Entre em Contato</h2>
-   <p>Resolva seu problema agora. Chame no WhatsApp:</p>    
-    <!-- Troque o número abaixo pelo seu -->
+
+    <p>Resolva seu problema agora. Chame no WhatsApp:</p>
+
     <a href="https://wa.me/5583998578951?text=Olá,%20vi%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços."
-   target="_blank">
-    Fale comigo no WhatsApp
+       target="_blank">
+
+      Fale comigo no WhatsApp
+
     </a>
+
   </section>
 
+  <!-- Rodapé -->
+
   <footer>
+
     <p>© 2026 - Suporte em Informática | Jandson</p>
+
   </footer>
 
+  <!-- Botão Flutuante -->
+
+  <a href="https://wa.me/5583998578951?text=Olá,%20vi%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços."
+     class="whatsapp-float"
+     target="_blank">
+
+    💬 Fale no WhatsApp
+
+  </a>
+
 </body>
+
 </html>
-
-
-
-
-
-
